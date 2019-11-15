@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/WFF-Profiles/static/css/main.b100e6da.chunk.css",
+    "main.js": "/WFF-Profiles/static/js/main.176e0e73.chunk.js",
+    "main.js.map": "/WFF-Profiles/static/js/main.176e0e73.chunk.js.map",
+    "runtime-main.js": "/WFF-Profiles/static/js/runtime-main.dfdf35c9.js",
+    "runtime-main.js.map": "/WFF-Profiles/static/js/runtime-main.dfdf35c9.js.map",
+    "static/js/2.8f04f743.chunk.js": "/WFF-Profiles/static/js/2.8f04f743.chunk.js",
+    "static/js/2.8f04f743.chunk.js.map": "/WFF-Profiles/static/js/2.8f04f743.chunk.js.map",
+    "index.html": "/WFF-Profiles/index.html",
+    "precache-manifest.bb34b74f212c9181aed8eeeb72c31f4f.js": "/WFF-Profiles/precache-manifest.bb34b74f212c9181aed8eeeb72c31f4f.js",
+    "service-worker.js": "/WFF-Profiles/service-worker.js",
+    "static/css/main.b100e6da.chunk.css.map": "/WFF-Profiles/static/css/main.b100e6da.chunk.css.map",
+    "static/media/logo.svg": "/WFF-Profiles/static/media/logo.25bf045c.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dfdf35c9.js",
+    "static/js/2.8f04f743.chunk.js",
+    "static/css/main.b100e6da.chunk.css",
+    "static/js/main.176e0e73.chunk.js"
+  ]
+}

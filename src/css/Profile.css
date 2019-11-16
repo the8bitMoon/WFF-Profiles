@@ -31,11 +31,15 @@ main article figure img {
 	object-position: top center;
 	padding: 0;
 	margin: 0;
-	filter: grayscale(90%);
+	/* filter: grayscale(90%); */
 	transition: filter 0.5s ease-in-out;
 }
 
-main article figure img:hover {
+main article figure img.Dead {
+	filter: grayscale(100%);
+}
+
+main article figure img.Dead:hover {
 	filter: grayscale(0%);
 }
 
@@ -47,6 +51,10 @@ main article section {
 	border-bottom: 1px solid#fff6;
 	align-items: stretch;
 	justify-content: center;
+}
+
+main article section > * {
+	padding: 0.5ch;
 }
 
 main article section h3 {
@@ -64,7 +72,6 @@ main article section p {
 	flex: 3 3 0;
 	text-align: left;
 	margin: 0;
-	padding-left: 1rem;
 	display: flex;
 	align-items: center;
 	justify-content: flex-start;

@@ -1,0 +1,18 @@
+nav {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	font-size: 0.8rem;
+}
+
+nav a {
+	flex: 0 1 40ch;
+	color: white;
+	text-decoration: none;
+	background: #0006;
+	border: 1px solid #fff6;
+	margin: 1rem;
+	padding: 0.5em;
+}

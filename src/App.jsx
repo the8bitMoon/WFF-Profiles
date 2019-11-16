@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 // import logo from './logo.svg';
 import './App.css';
 import Profiles from './components/Profiles.jsx';
+import Nav from './components/Nav.jsx';
 
 function setCookie(value) {
 	const expiry = new Date().getTime() + (30*24*60*60*1000);
@@ -44,15 +45,8 @@ class App extends Component {
 				<header>
 					<h1>Worldwide Future Foundation Member Profiles</h1>
 				</header>
+				<Nav flickerStatus={flicker} handleClick={this.toggleEffect} />
 				<Profiles />
-				<footer>
-					<small>
-						<p>All characters represented are fictional.</p>
-						<button onClick={this.toggleEffect}>
-							{(flicker) ? 'Disable' : 'Enable'} Flicker Effect
-						</button>
-					</small>
-				</footer>
 			</div>
 		);
 	}

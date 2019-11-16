@@ -24,7 +24,6 @@ export default class Profiles extends Component {
 	}
 	render() {
 		const { data } = this.state;
-		console.log('data-->', data);
 		return(
 			<main>
 				{data.map(obj => Profile(obj))}

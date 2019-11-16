@@ -140,7 +140,9 @@
   opacity: 0;
   z-index: 2;
   pointer-events: none;
-  animation: flicker 0.15s infinite;
+}
+.crt.flicker::before{
+	animation: flicker 0.15s infinite;
 }
 .crt::before {
   content: " ";
@@ -157,4 +159,8 @@
 }
 .crt {
   animation: textShadow 1.6s infinite;
+  animation-play-state: paused;
+}
+.crt.flicker {
+	animation-play-state: running;
 }

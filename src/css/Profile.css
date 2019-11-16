@@ -4,7 +4,7 @@ main article {
 	align-items: stretch;
 	justify-content: flex-end;
 	width: 100%;
-	max-width: 400px;
+	max-width: 40ch;
 	background: #0006;
 	border: 1px solid #fff6;
 	border-bottom: none;
@@ -13,7 +13,7 @@ main article {
 
 main article figure {
 	/* flex: 3 1 350px; */
-	max-height: 400px;
+	max-height: 40ch;
 	height: auto;
 	width: 100%;
 	margin: 0;
@@ -51,14 +51,13 @@ main article section {
 
 main article section h3 {
 	flex: 1 1 0;
-	background: #0006;
-	/* color: black; */
 	margin: 0;
 	border-right: 1px solid #fff6;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	text-transform: uppercase;
+	font-weight: normal;
 }
 
 main article section p {

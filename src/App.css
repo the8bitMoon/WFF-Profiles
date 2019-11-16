@@ -1,25 +1,33 @@
 @import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,400i,700,700i&display=swap');
+@import url('css/crt.css');
+@import url('css/Profiles.css');
+@import url('css/Profile.css');
 
 .App {
 	text-align: center;
 	font-family: 'IBM Plex Mono', monospace;
-}
-
-.App-logo {
-	height: 40vmin;
-}
-
-.App-header {
-	background-color: #282c34;
-	min-height: 100vh;
 	display: flex;
 	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	font-size: calc(10px + 2vmin);
+	min-height: 100vh;
+	width: 100vw;
 	color: white;
+	padding: 0;
+	margin: 0;
 }
 
-.App-link {
-	color: #09d3ac;
+html::before {
+	content: 'TEA-OSv1.5';
+	position: fixed;
+	height: 100vh;
+	width: 100vw;
+	font-size: 0.5rem;
+	color: white;
+	background: url('img/Future_Foundation_symbol.png'), linear-gradient(#333, #096, #333);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	z-index: -100;
+	font-family: 'IBM Plex Mono', monospace;
+	padding: 0.1rem;
+	filter: brightness(50%);
 }

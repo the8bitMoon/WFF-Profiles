@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/WFF-Profiles/static/css/main.7a623b5b.chunk.css",
-    "main.js": "/WFF-Profiles/static/js/main.8c3cd577.chunk.js",
-    "main.js.map": "/WFF-Profiles/static/js/main.8c3cd577.chunk.js.map",
+    "main.css": "/WFF-Profiles/static/css/main.1922f571.chunk.css",
+    "main.js": "/WFF-Profiles/static/js/main.580454ae.chunk.js",
+    "main.js.map": "/WFF-Profiles/static/js/main.580454ae.chunk.js.map",
     "runtime-main.js": "/WFF-Profiles/static/js/runtime-main.dfdf35c9.js",
     "runtime-main.js.map": "/WFF-Profiles/static/js/runtime-main.dfdf35c9.js.map",
-    "static/js/2.c949352f.chunk.js": "/WFF-Profiles/static/js/2.c949352f.chunk.js",
-    "static/js/2.c949352f.chunk.js.map": "/WFF-Profiles/static/js/2.c949352f.chunk.js.map",
+    "static/js/2.01408383.chunk.js": "/WFF-Profiles/static/js/2.01408383.chunk.js",
+    "static/js/2.01408383.chunk.js.map": "/WFF-Profiles/static/js/2.01408383.chunk.js.map",
     "index.html": "/WFF-Profiles/index.html",
-    "precache-manifest.6ea6b50ab1b9a49216d9b8a4d50eba33.js": "/WFF-Profiles/precache-manifest.6ea6b50ab1b9a49216d9b8a4d50eba33.js",
+    "precache-manifest.3d0ae056a29a123294abce2c4caf62a1.js": "/WFF-Profiles/precache-manifest.3d0ae056a29a123294abce2c4caf62a1.js",
     "service-worker.js": "/WFF-Profiles/service-worker.js",
-    "static/css/main.7a623b5b.chunk.css.map": "/WFF-Profiles/static/css/main.7a623b5b.chunk.css.map",
-    "static/media/logo.svg": "/WFF-Profiles/static/media/logo.25bf045c.svg"
+    "static/css/main.1922f571.chunk.css.map": "/WFF-Profiles/static/css/main.1922f571.chunk.css.map",
+    "static/media/App.css": "/WFF-Profiles/static/media/Future_Foundation_symbol.29c87d4b.png"
   },
   "entrypoints": [
     "static/js/runtime-main.dfdf35c9.js",
-    "static/js/2.c949352f.chunk.js",
-    "static/css/main.7a623b5b.chunk.css",
-    "static/js/main.8c3cd577.chunk.js"
+    "static/js/2.01408383.chunk.js",
+    "static/css/main.1922f571.chunk.css",
+    "static/js/main.580454ae.chunk.js"
   ]
 }

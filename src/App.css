@@ -2,6 +2,7 @@
 @import url('css/crt.css');
 @import url('css/Profiles.css');
 @import url('css/Profile.css');
+@import url('css/Nav.css');
 
 .App {
 	text-align: center;
@@ -33,14 +34,16 @@ html::before {
 	filter: brightness(50%);
 }
 
-footer {
+aside {
 	padding-bottom: 1rem;
+	font-size: 0.8rem;
 }
 
-footer small button {
+aside button {
 	color: white;
 	background: #0003;
 	border: 1px solid #fff3;
 	padding: 0.5em;
 	z-index: -50;
+	font-size: inherit;
 }

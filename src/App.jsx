@@ -11,7 +11,7 @@ function setCookie(value) {
 
 function getCookie() {
 	console.log(document.cookie);
-	const value = (document.cookie.split('=')[1] == 'true')
+	const value = (document.cookie.split('=')[1] === 'true')
 		? true
 		: false;
 	console.log(value);

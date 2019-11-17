@@ -13,7 +13,7 @@ main article {
 
 main article figure {
 	/* flex: 3 1 350px; */
-	max-height: 40ch;
+	max-height: calc(40ch - 1px);
 	height: auto;
 	width: 100%;
 	margin: 0;

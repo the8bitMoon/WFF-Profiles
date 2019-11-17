@@ -141,9 +141,6 @@
   z-index: 2;
   pointer-events: none;
 }
-.crt.flicker::before{
-	animation: flicker 0.15s infinite;
-}
 .crt::before {
   content: " ";
   display: block;
@@ -156,11 +153,14 @@
   z-index: 2;
   background-size: 100% 2px, 3px 100%;
   pointer-events: none;
+  opacity: 0.71428;
+}
+.crt.flicker::before {
+	animation: flicker 0.15s infinite;
 }
 .crt {
-  animation: textShadow 1.6s infinite;
-  animation-play-state: paused;
+  text-shadow: 2.202193051050636px 0 1px rgba(0,30,255,0.5), -2.202193051050636px 0 1px rgba(255,0,80,0.3), 0 0 3px;
 }
 .crt.flicker {
-	animation-play-state: running;
+	animation: textShadow 1.6s infinite;
 }

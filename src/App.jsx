@@ -11,11 +11,9 @@ function setCookie(value) {
 
 function getCookie() {
 	console.log(document.cookie);
-	const value = (document.cookie.split('=').length <= 0)
+	const value = (document.cookie.split('=')[1] == 'true')
 		? true
-		: (document.cookie.split('=')[1] === 'false')
-		? false
-		: true;
+		: false;
 	console.log(value);
 	return(value);
 }

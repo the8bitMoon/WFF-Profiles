@@ -7,12 +7,16 @@ nav {
 	font-size: 0.8rem;
 }
 
-nav a {
+nav a, nav button {
 	flex: 0 1 40ch;
 	color: white;
 	text-decoration: none;
 	background: #0006;
 	border: 1px solid #fff6;
-	margin: 1rem;
+	margin: 0.5rem;
 	padding: 0.5em;
+}
+
+nav button:hover {
+	cursor: pointer;
 }

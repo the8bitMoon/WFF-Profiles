@@ -20,6 +20,8 @@ html::before {
 	content: 'TEA-OSv1.5 \A ©the8bitMoon';
 	white-space: pre;
 	position: fixed;
+	top: 0;
+	text-align: left;
 	height: 100vh;
 	width: 100vw;
 	font-size: 0.5rem;
@@ -32,6 +34,7 @@ html::before {
 	font-family: 'IBM Plex Mono', monospace;
 	padding: 0.1rem;
 	filter: brightness(50%);
+	text-shadow: 0 0 3px;
 }
 
 aside {

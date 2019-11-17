@@ -1,9 +1,10 @@
 import React from 'react';
 
 export default function Profile(props){
+	const image = (props.imagelink) ? props.imagelink : 'placeholder.png';
 	return(
 		<article key={props.rowNumber}>
-			<figure><a href={props.imagelink}><img alt={props.name} src={props.imagelink} /></a></figure>
+			<figure><a href={image}><img alt={props.name} src={image} /></a></figure>
 			<section><h3>Name</h3><p>{props.name}</p></section>
 			<section><h3>Pronouns</h3><p>{props.pronouns}</p></section>
 			<section><h3>Status</h3><p>{props.status}</p></section>

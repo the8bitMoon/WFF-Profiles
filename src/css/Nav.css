@@ -15,6 +15,7 @@ nav a, nav button {
 	border: 1px solid #fff6;
 	margin: 0.5rem;
 	padding: 0.5em;
+	text-shadow: inherit;
 }
 
 nav button:hover {

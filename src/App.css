@@ -8,6 +8,11 @@
 	font-size: calc(10px + 0.5vmin);
 }
 
+*::selection {
+	text-shadow: 0 0 3px;
+	background: #396;
+}
+
 .App {
 	text-align: center;
 	font-family: 'IBM Plex Mono', monospace;

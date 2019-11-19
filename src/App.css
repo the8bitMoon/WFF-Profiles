@@ -4,6 +4,10 @@
 @import url('css/Profile.css');
 @import url('css/Nav.css');
 
+:root {
+	font-size: calc(10px + 0.5vmin);
+}
+
 .App {
 	text-align: center;
 	font-family: 'IBM Plex Mono', monospace;

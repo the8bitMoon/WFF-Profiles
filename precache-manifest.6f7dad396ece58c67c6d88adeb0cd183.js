@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e60857ad7363289ab1895e3ba9ec4c48",
+    "revision": "a1e5bc74898254135289d2edf1adfa68",
     "url": "/WFF-Profiles/index.html"
   },
   {
-    "revision": "374c7ce581027fb6918e",
-    "url": "/WFF-Profiles/static/css/main.1c0ae744.chunk.css"
+    "revision": "56274b2e7f99ddcc76ee",
+    "url": "/WFF-Profiles/static/css/main.0366a83f.chunk.css"
   },
   {
     "revision": "d9eb1708e6d60d104fd4",
     "url": "/WFF-Profiles/static/js/2.5d694398.chunk.js"
   },
   {
-    "revision": "374c7ce581027fb6918e",
-    "url": "/WFF-Profiles/static/js/main.dde66d7c.chunk.js"
+    "revision": "56274b2e7f99ddcc76ee",
+    "url": "/WFF-Profiles/static/js/main.5768bd02.chunk.js"
   },
   {
     "revision": "8b85b9913d38692fc868",

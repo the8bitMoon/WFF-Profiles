@@ -3,7 +3,10 @@ import React from 'react';
 export default function Profile(props){
 	const image = (props.imagelink) ? props.imagelink : 'placeholder.png';
 	return(
-		<article key={props.rowNumber} id={props.name}>
+		<article
+			key={props.rowNumber}
+			id={props.name.toLowerCase().split(/\s+/).join('')}
+		>
 			<figure>
 				<a href={image}>
 					<img alt={props.name} src={image} />

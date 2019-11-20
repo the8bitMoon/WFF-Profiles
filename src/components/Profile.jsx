@@ -1,4 +1,5 @@
 import React from 'react';
+import ReactMarkdown from 'react-markdown';
 
 export default function Profile(props){
 	const image = (props.imagelink) ? props.imagelink : 'placeholder.png';
@@ -25,7 +26,7 @@ export default function Profile(props){
 			<section style={{flexDirection: 'column'}}>
 				<p>{props.connectiontoworldwidefuturefoundation}.</p>
 				<p>{props.divisiondescription}.</p>
-				<p>{props.personality}</p>
+				<ReactMarkdown source={props.personality} />
 			</section>
 		</article>
 	)

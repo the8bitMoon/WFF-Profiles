@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/Future_Foundation_Logo.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#396" />
+    <meta name="theme-color" content="var(--theme-color)" />
     <meta
       name="description"
       content="A page for TEA OC Profiles."
@@ -34,6 +34,7 @@
     -->
     <title>Worldwide Future Foundation Member Profiles</title>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.5.0/modern-normalize.css" integrity="sha256-wOIgn5DueqkvX+IpwWJkwzQblHz45CGXEOjju1aHqFg=" crossorigin="anonymous" />
+	<script src="smartquotes.js"></script>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
@@ -48,5 +49,6 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+	<script>smartquotes().listen()</script>
   </body>
 </html>

@@ -31,16 +31,16 @@ main article figure img {
 	object-position: top center;
 	padding: 0;
 	margin: 0;
-	/* filter: grayscale(90%); */
-	transition: filter 0.5s ease-in-out;
+	/* filter: saturate(100%) contrast(100%); */
+	transition: filter 0.25s ease-in-out;
 }
 
-main article figure img.Dead {
-	filter: grayscale(100%);
+main article.Deceased figure img {
+	filter: saturate(0%);
 }
 
-main article figure img.Dead:hover {
-	filter: grayscale(0%);
+main article figure img:hover {
+	filter: saturate(300%) contrast(300%);
 }
 
 main article section {

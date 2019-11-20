@@ -6,6 +6,7 @@ export default function Profile(props){
 		<article
 			key={props.rowNumber}
 			id={props.name.toLowerCase().split(/\s+/).join('')}
+			className={props.status}
 		>
 			<figure>
 				<a href={image}>

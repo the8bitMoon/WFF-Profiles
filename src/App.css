@@ -7,11 +7,12 @@
 
 :root {
 	font-size: calc(10px + 0.5vmin);
+	--theme-color: #095;
 }
 
 *::selection {
 	text-shadow: 0 0 3px;
-	background: #396;
+	background: var(--theme-color);
 }
 
 .App {
@@ -36,7 +37,7 @@ html::before {
 	width: 100vw;
 	font-size: 0.5rem;
 	color: white;
-	background: url('img/Future_Foundation_symbol.png'), linear-gradient(#333, #096, #333);
+	background: url('img/Future_Foundation_symbol.png'), linear-gradient(#333, var(--theme-color), #333);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: contain;

@@ -18,6 +18,10 @@ nav a, nav button {
 	text-shadow: inherit;
 }
 
-nav button:hover {
+nav button:hover, nav a:hover {
 	cursor: pointer;
+	color: var(--theme-color);
+	font-weight: bolder;
+	/* background: var(--theme-color); */
+	/* text-shadow: 0 0 3px; */
 }

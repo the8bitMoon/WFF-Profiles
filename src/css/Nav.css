@@ -16,12 +16,15 @@ nav a, nav button {
 	margin: 0.5rem;
 	padding: 0.5em;
 	text-shadow: inherit;
+	backdrop-filter: blur(3rem);
+	font-weight: bold;
+	box-shadow: 0 0 1ch #0006;
 }
 
 nav button:hover, nav a:hover {
 	cursor: pointer;
 	color: var(--theme-color);
-	font-weight: bolder;
-	/* background: var(--theme-color); */
+	background: none;
 	/* text-shadow: 0 0 3px; */
+	backdrop-filter: brightness(150%) blur(3rem);
 }

@@ -9,6 +9,8 @@ main article {
 	border: 1px solid #fff6;
 	border-bottom: none;
 	margin: 0.5rem;
+	backdrop-filter: blur(3rem);
+	box-shadow: 0 0 1ch #0006;
 }
 
 main article figure {
